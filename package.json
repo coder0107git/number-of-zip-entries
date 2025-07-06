@@ -1,30 +1,18 @@
 {
-  "name": "zipinfo.js",
+  "name": "number-of-zip-entries",
   "version": "1.0.0",
-  "description": "A minimal JavaScript library for querying metadata of zip files.",
-  "main": "zipinfo.js",
+  "description": "Minimalistic JavaScript function to get the number of entries in a zip file",
+  "main": "index.js",
   "keywords": [
     "zip"
   ],
   "author": "Rob Wu <rob@robwu.nl> (https://robwu.nl)",
   "license": "MIT",
-  "devDependencies": {
-    "istanbul": "^0.4.5",
-    "mocha": "^3.2.0",
-    "uglify-js2": "^2.1.11"
-  },
-  "scripts": {
-    "build-min": "npm run build-min-browser && npm run build-min-greasemonkey",
-    "build-min-browser": "uglifyjs zipinfo.js zipinfo_browser.js -m -c --comments /Copyright/ -o build/zipinfo_browser.min.js",
-    "build-min-greasemonkey": "uglifyjs zipinfo.js zipinfo_greasemonkey.js -m -c --comments /Copyright/ -o build/zipinfo_greasemonkey.min.js",
-    "test": "mocha ./test/test*.js --reporter spec",
-    "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test-ZipInfo.js --reporter spec"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rob--W/zipinfo.js.git"
+    "url": "https://github.com/coder0107git/number-of-zip-entries.git"
   },
   "bugs": {
-    "url": "https://github.com/Rob--W/zipinfo.js/issues"
+    "url": "https://github.com/coder0107git/number-of-zip-entries/issues"
   }
 }
